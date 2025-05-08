@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.theme-btn {
+    cursor: pointer;
+}
+
+.new-task-btn{
+    background-color: #5F33E1;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    width: 335px;
+    height: 36px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}

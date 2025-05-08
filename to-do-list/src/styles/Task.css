@@ -1,0 +1,72 @@
+.task {
+    padding: 8px 12px;
+    display: flex;
+    height: 56px;
+    margin: 15px 0;
+    border-radius: 6px;
+    box-shadow: 0 1px 6px 0 #0000001F;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    width: 311px;
+
+}
+
+.dark .task {
+    background-color: #342F65;
+}
+
+.task .left{
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+.task .checkbox {
+    width: 24px;
+    cursor: pointer;
+}
+
+.task .tag {
+    height: 40px;
+}
+
+.task:hover .progress{
+display: none;
+}
+
+.task .category {
+    font-size: 14px;
+    width: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.task .title {
+    font-size: 12px;
+    width: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.task .details {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+
+.task .action-btns {
+    display: none;
+  }
+  
+  .task:hover .action-btns {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .task:hover .action-btns img {
+   cursor: pointer;
+  }

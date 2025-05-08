@@ -1,0 +1,11 @@
+.dark body {
+  background-color: #0A013D;
+  color: white;
+}
+body {
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  color: #0A013D;
+  padding: 20px;
+}
+

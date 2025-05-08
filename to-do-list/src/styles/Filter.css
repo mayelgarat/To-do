@@ -1,0 +1,18 @@
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.dark .filter-container .filter {
+    background-color: #342F65;
+    color: white;
+}
+
+.filter-container .filter {
+    background-color: white;
+    color: #342F65;
+    width: 182px;
+    height: 36px;
+}

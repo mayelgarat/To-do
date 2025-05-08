@@ -1,0 +1,94 @@
+.dark body {
+  background-color: #0A013D;
+  color: white;
+}
+
+body {
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  color: #0A013D;
+  padding: 20px;
+}
+
+.back {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.back p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.add-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.add-task-main {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.select-category {
+  width: 335px;
+  height: 36px;
+  box-shadow: 0 1px 6px 0 #0000001F;
+  border-radius: 8px;
+  padding: 12px 8px;
+  border: none;
+}
+
+.dark .select-category {
+  background-color: #342F65;
+  color: white;
+}
+
+.input {
+  width: 335px;
+  height: 36px;
+  box-shadow: 0 1px 6px 0 #0000001F;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+
+}
+
+.dark .input {
+  background-color: #342F65;
+  color: white;
+}
+
+.new-subtask-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 161px;
+  height: 36px;
+  border-radius: 8px;
+  padding: 8px 12px;
+  border: 1px solid #5F33E1;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+
+}
+
+.dark .new-subtask-btn {
+  background-color: #0A013D;
+  color: white;
+}
+
+.subtask-container {
+    padding-left: 20px;
+    border-left: 4px #5F33E1 solid;
+    ;
+}
+.subtask {
+  display: flex;
+  margin-bottom: 30px;
+  width: 310px;
+}
