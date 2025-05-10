@@ -5,6 +5,7 @@ import TaskPage from './pages/TaskPage.jsx';
 import './App.css';
 import React, { useEffect, useState } from 'react';
 import { initialTasks } from './db/index.js';
+import RouteLogger from './utils/RouteLogger.jsx';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
 }, [isThemeLight]);
   return (
     <Router>
+      <RouteLogger />
       <Routes>
         <Route path="/" element={<Home tasks={tasks} setTasks={setTasks} isThemeLight={isThemeLight} setIsThemeLight={setIsThemeLight} />} />
         <Route path="/add-task" element={<TaskPage tasks={tasks} setTasks={setTasks} isThemeLight={isThemeLight} setIsThemeLight={setIsThemeLight}/>} />
